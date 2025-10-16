@@ -394,8 +394,9 @@
         <script>
 
        setTimeout(() => {
-          localStorage.removeItem('allBlogsData');
+         
             document.addEventListener('DOMContentLoaded', () => {
+                 localStorage.removeItem('allBlogsData');
                 // Retrieve blogs from localStorage
                 const savedBlogData = JSON.parse(localStorage.getItem('recentBlogsData'));
             
